@@ -31,7 +31,7 @@ repository = "https://github.com/bruyant/nomad-oasis-lncmi"
 plugins = [
  "nomad-north-jupyter>=0.2.1",
  "nomad-material-processing>=1.0.0",
- "nomad_tools_pymagnetos @ git+https://github.com/Bruyant/nomad_tools_pymagnetos.git@v0.1"
+ "nomad_tools_pymagnetos @ git+https://github.com/Bruyant/nomad_tools_pymagnetos.git@v0.1.1"
   ]
 jupyter = ["jupyter-events"]
 gpu-action = []
