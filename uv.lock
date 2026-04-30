@@ -2507,7 +2507,7 @@ requires-dist = [
     { name = "nomad-material-processing", marker = "extra == 'plugins'", specifier = ">=1.0.0" },
     { name = "nomad-north-jupyter", marker = "extra == 'plugins'", specifier = ">=0.2.1" },
     { name = "nomad-parser-plugins-electronic", extras = ["dev"], marker = "extra == 'dev'", specifier = "==1.0.13" },
-    { name = "nomad-tools-pymagnetos", marker = "extra == 'plugins'", git = "https://github.com/Bruyant/nomad_tools_pymagnetos.git?rev=v0.1" },
+    { name = "nomad-tools-pymagnetos", marker = "extra == 'plugins'", git = "https://github.com/Bruyant/nomad_tools_pymagnetos.git?rev=v0.1.1" },
 ]
 provides-extras = ["plugins", "jupyter", "gpu-action", "cpu-action", "dev"]
 
@@ -2703,7 +2703,7 @@ wheels = [
 [[package]]
 name = "nomad-tools-pymagnetos"
 version = "0.1.0"
-source = { git = "https://github.com/Bruyant/nomad_tools_pymagnetos.git?rev=v0.1#463883af508663c989048830c5a872e1411932ad" }
+source = { git = "https://github.com/Bruyant/nomad_tools_pymagnetos.git?rev=v0.1.1#b24e474cd94075ed99a3d137b068f9c68e1517d4" }
 dependencies = [
     { name = "nomad-lab" },
     { name = "pydantic" },
