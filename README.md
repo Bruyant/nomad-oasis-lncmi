@@ -1,9 +1,9 @@
 ![docker image](https://github.com/Bruyant/nomad-oasis-lncmi/actions/workflows/docker-publish.yml/badge.svg)
 
 
-# Bruyant's NOMAD Oasis Distribution
+# LNCMI's NOMAD Oasis Distribution
 
-This is the NOMAD Oasis distribution of Bruyant.
+This is the NOMAD Oasis distribution of LNCMI.
 Below are instructions for how to [deploy this distribution](#deploying-the-distribution)
 and how to customize it through [adding plugins](#adding-a-plugin).
 
